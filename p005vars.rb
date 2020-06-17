@@ -12,6 +12,12 @@ var1 = 7;
 var2 = '3'  
 
 puts var1 + var2.to_i  
+
+var3 = '200.0'
+
+puts "converting var3 to_f"
+puts var3.to_i
+
 # << appending to a string  
 a = 'hello '  
 a<<'world. 
